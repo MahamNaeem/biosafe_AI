@@ -1,0 +1,11 @@
+booking_id,request_id,hospital_name,department,provider_id,waste_type,quantity_kg,scheduled_time,status,total_price_pkr,urgency,qr_tracking_id,payment_status,certificate_issued,created_at
+B001,REQ001,Aga Khan Hospital,ICU,P001,sharps,45,2025-01-15 09:00,completed,4200,urgent,QR-2025-001-AKH,paid,yes,2025-01-14 16:32
+B002,REQ002,South City Hospital,Emergency,P005,infectious|blood,120,2025-01-15 11:00,completed,9800,urgent,QR-2025-002-SCH,paid,yes,2025-01-14 18:10
+B003,REQ003,Liaquat National Hospital,Ward 3,P003,blood,60,2025-01-16 10:00,completed,5400,today,QR-2025-003-LNH,paid,yes,2025-01-15 09:45
+B004,REQ004,Ziauddin Hospital,Operation Theater,P001,sharps|infectious,80,2025-01-16 14:00,completed,7100,today,QR-2025-004-ZH,paid,yes,2025-01-15 11:20
+B005,REQ005,National Medical Center,ICU,P005,sharps,30,2025-01-17 09:00,in_progress,3600,scheduled,QR-2025-005-NMC,paid,pending,2025-01-16 08:00
+B006,REQ006,Patel Hospital,Laboratory,P002,pharmaceutical,50,2025-01-17 13:00,confirmed,5200,today,QR-2025-006-PH,pending,pending,2025-01-16 10:15
+B007,REQ007,Jinnah Hospital,Emergency,P006,blood|infectious,95,2025-01-17 15:00,confirmed,8100,urgent,QR-2025-007-JH,pending,pending,2025-01-16 13:40
+B008,REQ008,Indus Hospital,Ward 5,P008,pharmaceutical|plastic,70,2025-01-18 10:00,pending,6300,scheduled,QR-2025-008-IH,pending,pending,2025-01-17 09:00
+B009,REQ009,Civil Hospital,ICU|Emergency,P005,sharps|blood|infectious,200,2025-01-18 08:00,confirmed,17500,urgent,QR-2025-009-CH,paid,pending,2025-01-17 16:00
+B010,REQ010,Karachi Medical Complex,General Ward,P004,plastic|general,150,2025-01-18 14:00,pending,5000,scheduled,QR-2025-010-KMC,pending,pending,2025-01-17 11:30

@@ -1,0 +1,9 @@
+category_id,waste_type,display_name,risk_level,reuse_risk,disease_risk,marine_pollution_risk,land_pollution_risk,recommended_disposal,color_code,handling_notes
+W001,sharps,Sharps (Needles/Syringes/Blades),Critical,Very High,AIDS/Hepatitis B&C/Tetanus,High,High,Needle Destroyer + Incineration,#FF0000,"Never recap. Use puncture-resistant containers. WHO yellow biohazard bag."
+W002,infectious,Infectious/Pathological Waste,High,High,Multi-drug resistant bacteria/Viral infections,High,Very High,Autoclave + Incineration,#FF4500,"Double-bag in WHO red biohazard bags. Sealed at source."
+W003,blood,Blood-Contaminated Waste,High,High,HIV/Hepatitis B&C/Blood-borne pathogens,Very High,High,Autoclave + Incineration,#CC0000,"Use leak-proof containers. Never mix with general waste."
+W004,pharmaceutical,Pharmaceutical/Expired Medicines,High,Medium,Antibiotic resistance/Chemical toxicity,Very High,Very High,Licensed Pharmaceutical Disposal,#FF8C00,"Do not flush or bin. Return to licensed pharma disposal agency."
+W005,plastic,Plastic Medical Waste (Non-sharp),Medium,Medium,Cross-contamination if reused,High,Very High,Sterilize then Recycle or Incinerate,#FFA500,"Decontaminate before recycling. Do not mix with sharps."
+W006,general,General Hospital Waste,Low,Low,Minimal if not contaminated,Medium,Medium,Municipal Waste + Partial Recycling,#2ECC71,"Segregate from hazardous waste. Standard municipal protocols."
+W007,chemical,Chemical/Hazardous Reagents,Very High,Low,Chemical burns/Organ damage,Very High,Very High,Licensed Chemical Disposal + Neutralization,#8B0000,"Store separately. Neutralize acids/bases before disposal."
+W008,radioactive,Radioactive Medical Waste,Critical,Low,Radiation exposure/Cancer risk,High,Very High,Licensed Radioactive Disposal Facility Only,#800080,"Shielded containers. Decay-in-storage for short half-life isotopes."

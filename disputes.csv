@@ -1,0 +1,9 @@
+dispute_id,booking_id,hospital_name,provider_id,dispute_type,description,severity,status,resolution,compensation_pkr,created_at,resolved_at
+D001,B001,Aga Khan Hospital,P003,late_pickup,Provider arrived 2 hours late. Waste left unsecured.,Medium,resolved,Refund of urgency fee + warning issued to provider,400,2025-01-15 11:30,2025-01-15 14:00
+D002,B002,South City Hospital,P007,quality_complaint,Waste bags were not properly sealed. Spillage risk.,High,resolved,Full refund + provider retraining required,9800,2025-01-14 17:00,2025-01-15 10:00
+D003,B003,Liaquat National Hospital,P006,no_show,Provider did not show up. No communication.,High,resolved,Full refund + emergency rebooking with P001,5400,2025-01-16 12:00,2025-01-16 13:30
+D004,B004,Ziauddin Hospital,P002,price_disagreement,Hospital charged extra fees not in original quote.,Medium,resolved,Refund of overcharge amount,800,2025-01-16 16:00,2025-01-17 09:00
+D005,B005,National Medical Center,P004,certificate_missing,Disposal certificate not provided after 48 hours.,Medium,open,Under investigation - provider notified,0,2025-01-17 14:00,
+D006,B006,Patel Hospital,P003,qr_mismatch,QR code on waste bag does not match booking system.,High,open,Investigating potential illegal dumping,0,2025-01-17 16:30,
+D007,B007,Jinnah Hospital,P007,illegal_dumping,Waste found dumped near Lyari River. Severe environmental risk.,Critical,escalated,Police + EPA notified. Provider blacklisted.,50000,2025-01-17 18:00,
+D008,B008,Indus Hospital,P006,cancellation,Provider cancelled 1 hour before pickup without reason.,Medium,resolved,Emergency rebooking + partial compensation,1000,2025-01-18 07:00,2025-01-18 08:30
